@@ -1,5 +1,6 @@
 # rDate ![npm](https://img.shields.io/npm/v/rdate)
 ## List of functions:
++ [addition](#--addition)
 + [daysInMonth](#--daysInMonth)
 + [duration](#--duration)
 + [format](#--format)
@@ -12,6 +13,21 @@
 
 
 ## Functions
+### - addition()
+
+```javascript
+addition(date, {day, month})
+```
+
+options:
+- ???
+
+Sample:
+```javascript
+ addition(new Date('1990/01.19'),{day: 2})
+ // ????
+```
+result: ???
 ### - daysInMonth()
 
 ```javascript
